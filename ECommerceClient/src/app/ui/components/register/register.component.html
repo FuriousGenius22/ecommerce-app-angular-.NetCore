@@ -1,0 +1,117 @@
+<br />
+<br />
+<div class="row">
+  <div class="col-md-3"></div>
+  <div class="col-md-6">
+    <form [formGroup]="frm" (ngSubmit)="onSubmit(frm.value)">
+      <div class="form-group">
+        <label for="nameSurname">Ad Soyad</label>
+        <input
+          type="text"
+          formControlName="nameSurname"
+          class="form-control"
+          id="nameSurname"
+          [ngClass]="{ 'is-invalid': submitted && component.nameSurname.errors }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.nameSurname.errors?.required"
+          >Lütfen ad soyadı boş geçmeyiniz.</small
+        >
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="
+            submitted &&
+            (component.nameSurname.errors?.maxlength ||
+              component.nameSurname.errors?.minlength)
+          "
+          >Lütfen ad soyadı 3 ile 50 karakter arasında giriniz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="username">Kullanıcı Adı</label>
+        <input
+          type="text"
+          formControlName="username"
+          class="form-control"
+          id="username"
+          [ngClass]="{
+            'is-invalid': submitted && component.username.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.username.errors?.required"
+          >Lütfen kullanıcı adını boş geçmeyiniz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input
+          type="email"
+          formControlName="email"
+          class="form-control"
+          id="email"
+          aria-describedby="emailHelp"
+          [ngClass]="{
+            'is-invalid': submitted && component.email.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.email.errors?.required"
+          >Lütfen emaili boş geçmeyiniz.</small
+        >
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.email.errors?.email"
+          >Lütfen emaili doğru giriniz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="password">Şifre</label>
+        <input
+          type="password"
+          formControlName="password"
+          class="form-control"
+          id="password"
+          [ngClass]="{
+            'is-invalid': submitted && component.password.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && component.password.errors?.required"
+          >Lütfen şifreyi boş geçmeyiniiz.</small
+        >
+      </div>
+      <div class="form-group">
+        <label for="passwordConfirm">Şifre Tekrar</label>
+        <input
+          type="password"
+          formControlName="passwordConfirm"
+          class="form-control"
+          id="passwordConfirm"
+          [ngClass]="{
+            'is-invalid': submitted && component.passwordConfirm.errors
+          }"
+        />
+        <small
+          class="form-text text-muted invalid-feedback"
+          style="background-color: rgb(255, 126, 126); padding-left: 1%;"
+          *ngIf="submitted && frm.hasError('notSame')"
+          >Lütfen şifreyi aynı giriniz</small
+        >
+      </div>
+      <br />
+      <button type="submit" class="btn btn-primary">Kayıt Ol</button>
+    </form>
+  </div>
+  <div class="col-md-3"></div>
+</div>

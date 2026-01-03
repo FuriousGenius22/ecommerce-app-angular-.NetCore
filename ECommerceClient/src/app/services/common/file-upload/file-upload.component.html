@@ -1,0 +1,23 @@
+<div class="center">
+  <ngx-file-drop dropZoneLabel="Drop files here" (onFileDrop)="dropped($event)" [accept]="options.accept">
+    <ng-template ngx-file-drop-content-tmp let-openFileSelector="openFileSelector">
+      <mat-card class="drop-zone">
+        <p>{{options.explanation}}</p>
+        <button mat-raised-button color="primary" (click)="openFileSelector()">Dosyalara Göz At</button>
+      </mat-card>
+    </ng-template>
+  </ngx-file-drop>
+  <div class="upload-table" *ngIf="files">
+    <table mat-table [dataSource]="files" class="mat-elevation-z8">
+
+      <!-- File Name Column -->
+      <ng-container matColumnDef="name">
+        <th mat-header-cell *matHeaderCellDef> Seçilenler </th>
+        <td mat-cell *matCellDef="let file"> {{ file.relativePath }} </td>
+      </ng-container>
+
+      <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+      <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+    </table>
+  </div>
+</div>

@@ -1,0 +1,16 @@
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Application.deps.json
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Application.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Application.pdb
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Domain.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\bin\Debug\net6.0\ECommerceAPI.Domain.pdb
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.csproj.AssemblyReference.cache
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.AssemblyInfoInputs.cache
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.AssemblyInfo.cs
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.csproj.CoreCompileInputs.cache
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.sourcelink.json
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerc.F181CD37.Up2Date
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\refint\ECommerceAPI.Application.dll
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ECommerceAPI.Application.pdb
+C:\Users\alpay\OneDrive\Masaüstü\ECommerce-ASP.NETCore-Angular\ECommerceAPI\Core\ECommerceAPI.Application\obj\Debug\net6.0\ref\ECommerceAPI.Application.dll
